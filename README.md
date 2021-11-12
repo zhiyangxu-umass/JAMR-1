@@ -63,6 +63,10 @@ To run the rule-based aligner:
 The output of the aligner is described in [docs/Alignment Format](docs/Alignment_Format.md).  The aligner has been
 updated for SemEval 2016.
 
+brew install icu4c
+comment /JAMR/tools/cdec/corpus/support/quote-norm.pl
+change /JAMR/scripts/config_Semeval-2016_LDC2015E86.sh line 6 scala-2.10 to scala-2.11
+
 # Hand Alignments
 
 To create the hand alignments file, see [docs/Hand Alignments](docs/Hand_Alignments.md).
